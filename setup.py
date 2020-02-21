@@ -18,7 +18,7 @@ import glob
 import os
 from setuptools import setup, find_packages
 
-SCRIPTS_DIR = "pulsarpy_to_dcc/scripts/"
+SCRIPTS_DIR = "pulsarpy_to_encodedcc/scripts/"
 scripts = glob.glob(os.path.join(SCRIPTS_DIR,"*.py"))
 scripts.remove(os.path.join(SCRIPTS_DIR,"__init__.py"))
 
