@@ -1,6 +1,6 @@
 build/
 dist/
-pulsarpy-to-encodedcc.egg-info/
+pulsarpy_to_encodedcc.egg-info/
 .nfs*
 *.pyc
 *.txt
