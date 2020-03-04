@@ -673,7 +673,7 @@ class Submit():
                 r = {}
                 r["source"] = "addgene"
                 r["url"] = "http://www.addgene.org/" + addgene_id
-                r["identifier"] = addgene_id
+                r["identifier"] = "addgene:" + addgene_id
                 reagents.append(r)
         if reagents:
             payload["reagents"] = reagents
